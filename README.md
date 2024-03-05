@@ -1,16 +1,22 @@
-# xylophone
+# Xylophone🎵
 
-A new Flutter project.
+An application written as part of a development course to learn how to create custom widgets and 
+use them in the widget tree. The project also includes learning how to work with audio.
 
-## Getting Started
+## Technologies🔧
 
-This project is a starting point for a Flutter application.
+#### - Flutter
+#### - Custom Widgets
 
-A few resources to get you started if this is your first Flutter project:
+## Interface💻
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The application consists of one screen with seven multi-colored keys. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Functionality🕹
+
+By pressing any of the keys, the device produces the sound of the corresponding note. 
+Each key is a custom widget into which the color value and the path to the audio file from the library 
+are transferred from the main widget. The local file library includes 7 audio files in .wav format.
+
+The result is a simple xylophone application🎶
+
